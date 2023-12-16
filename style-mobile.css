@@ -1,0 +1,141 @@
+/* Mobile */
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+    .banner__main {
+        padding: 0 15px;
+    }
+
+    .banner__content {
+        width: 100%
+    }
+
+    .quanlyhocsinh__main {
+        padding: 0 15px;
+    }
+
+    .quanlyhocsinh__items {
+        flex-wrap: wrap;
+    }
+
+    .quanlyhocsinh__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .quanlyhocsinh__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .thietbidiemdanh__main {
+        padding: 0 15px;
+    }
+
+    .thietbidiemdanh__items {
+        flex-wrap: wrap;
+    }
+
+    .thietbidiemdanh__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /*********************/
+    .trainghiemungdung__main {
+        padding: 50px 15px 50px 15px;
+    }
+
+    .trainghiemungdung__item {
+        width: 100%;
+    }
+
+    .trainghiemungdung__item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .traingiemungdung__items {
+        flex-wrap: wrap;
+    }
+
+    .trainghiemungdung__item__img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .khachhang__main {
+        padding: 50px 15px 50px 15px;
+    }
+
+    .khachhangnoibat img {
+        width: 30%;
+    }
+
+    .khachhangnoibat img:nth-child(5) {
+        display: none;
+    }
+
+    .khachhangnoibat img:nth-child(4) {
+        display: none;
+    }
+
+    .khachhangnoibat img:nth-child(3) {
+        transform: none;
+    }
+
+    .khachhangnoibat img:nth-child(2) {
+        transform: scale(1.1);
+    }
+
+    .taisaochon__main {
+        padding: 15px;
+    }
+
+    .taisaochon__title {
+        padding-top: 50px;
+    }
+
+    .taisaochon__item {
+        width: 100%;
+        padding: 45px 15px 30px 15px;
+        border: none;
+    }
+
+    .taisaochon__items {
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+
+    .footer__main {
+        padding: 80px 15px 0 15px;
+    }
+
+    .footer__item {
+        padding: 0;
+    }
+
+    .footer__items {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer__item:nth-child(1) {
+        width: 100%;
+    }
+
+    .footer__item:nth-child(2) {
+        width: 100%;
+    }
+
+    .footer__item:nth-child(3) {
+        width: 100%;
+    }
+
+    .copyright {
+        padding: 100px 0 15px;
+    }
+
+    .copyright p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,86 @@
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .banner__main {
+        padding: 0 50px;
+    }
+
+    .banner__content {
+        width: 100%
+    }
+
+    .quanlyhocsinh__main {
+        padding: 0 50px;
+    }
+
+    .quanlyhocsinh__items {
+        flex-wrap: wrap;
+    }
+
+    .quanlyhocsinh__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .quanlyhocsinh__item__content ul li {
+        text-align: center;
+        list-style: none;
+    }
+
+    .quanlyhocsinh__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .thietbidiemdanh__main {
+        padding: 0 50px;
+    }
+
+    .thietbidiemdanh__items {
+        flex-wrap: wrap;
+    }
+
+    .thietbidiemdanh__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .trainghiemungdung__main {
+        padding: 50px 50px 80px 50px;
+    }
+
+    .traingiemungdung__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .trainghiemungdung__item__img {
+        width: 85%;
+        height: 85%;
+    }
+
+    .khachhang__main {
+        padding: 50px;
+    }
+
+    .khachhangnoibat img {
+        width: 15%;
+    }
+
+    .taisaochon__main {
+        padding: 50px;
+    }
+
+    .taisaochon__item {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .footer__main {
+        padding: 85px 50px 0 50px;
+    }
+
+    .copyright p {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
