@@ -231,7 +231,6 @@
     margin-top: 50px;
 }
 
-
 .trainghiemungdung__main {
     padding: 0 165px;
     padding-top: 50px;
@@ -289,14 +288,14 @@
     justify-content: space-between;
 }
 
-.khachhangnoibat img:nth-child(3) {
-    transform: scale(1.2);
-}
-
 .khachhangnoibat img {
     cursor: pointer;
     width: 160px;
     height: auto;
+}
+
+.khachhangnoibat img:nth-child(3) {
+    transform: scale(1.2);
 }
 
 .taisaochon {
